@@ -12,6 +12,7 @@ However as a developer it is a kind request to please add more data into the set
 
 ## Neural Network Architecture
 
+![Architecture](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/network.png)
 
 
 ## Training & Accuracy
