@@ -28,9 +28,9 @@ The training loss and the accuracy of the model were monitored throughout the tr
 
 ## Screenshots
 
-![With Mask](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/With-Mask.png)  
+![With Mask](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/With%20Mask.png)  
 With Mask
-![Without Mask](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/Without-Mask.png)
+![Without Mask](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/Without%20Mask.png)
 
 ## References
 1. Dataset Generation - https://github.com/prajnasb/observations
