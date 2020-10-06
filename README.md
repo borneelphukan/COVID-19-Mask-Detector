@@ -2,8 +2,10 @@
 
 ## Introduction
 
+## Dataset
+
 ## Neural Network Architecture
 
-## Dataset
+## Training & Accuracy
 
 ## References
