@@ -17,8 +17,13 @@ However as a developer it is a kind request to please add more data into the set
 
 ## Training & Accuracy
 
-The training took approximately 10 minutes to complete. It required 20 epochs with each epoch having a batch size of 34 images and the learning rate of the Adam optimizer set to 1e-4. The training loss and the accuracy of the model were monitored throughout the training phase and is given below:  
+The training took approximately 10 minutes to complete. It required 20 epochs with each epoch having a batch size of 34 images and the learning rate of the Adam optimizer set to 1e-4. 
+![Training Phase](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/Training.png)
 
+The confusion matrix is given below:  
+![Confusion Matrix](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/Classification.png)  
+
+The training loss and the accuracy of the model were monitored throughout the training phase and is given below:  
 ![Training Loss & Accuracy Graph](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/plot.png)
 
 
