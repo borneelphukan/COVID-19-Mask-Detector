@@ -5,7 +5,6 @@ from imutils.video import VideoStream
 import numpy as np
 from util import mask_prediction
 import imutils
-import time
 import cv2
 import os
 
@@ -13,7 +12,6 @@ face_detector = "./face_detector"
 model_path = "borneel_mask_detector.model"
 
 # load pretrained face detector
-print("[INFO] loading face detector model...")
 prototxtPath = os.path.sep.join([face_detector, "deploy.prototxt"])
 weightsPath = os.path.sep.join([face_detector,"res10_300x300_ssd_iter_140000.caffemodel"])
 face_net = cv2.dnn.readNet(prototxtPath, weightsPath)
@@ -22,11 +20,10 @@ face_net = cv2.dnn.readNet(prototxtPath, weightsPath)
 mask_net = load_model(model_path)
 
 video = VideoStream(0).start()
-time.sleep(2.0)
 
 while True:
 	frame = video.read()
-	frame = imutils.resize(frame, width=400)
+	frame = imutils.resize(frame, width=800)
 
 	(locs, preds) = mask_prediction(frame, face_net, mask_net)
 
