@@ -26,6 +26,11 @@ The confusion matrix is given below:
 The training loss and the accuracy of the model were monitored throughout the training phase and is given below:  
 ![Training Loss & Accuracy Graph](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/plot.png)
 
+## Screenshots
+
+![With Mask](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/With-Mask.png)  
+With Mask
+![Without Mask](https://github.com/borneelphukan/COVID-19-Mask-Detector/blob/master/images/Without-Mask.png)
 
 ## References
 1. Dataset Generation - https://github.com/prajnasb/observations
