@@ -1,3 +1,9 @@
 # COVID-19-Mask-Detector
 
-<--To be updated -->
+## Introduction
+
+## Neural Network Architecture
+
+## Dataset
+
+## References
